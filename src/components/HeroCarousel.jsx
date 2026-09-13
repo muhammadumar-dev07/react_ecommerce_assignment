@@ -24,8 +24,8 @@ const slides = [
   },
   {
     image: carousel3,
-    title: "The Luxury Skincare",
-    subtitle: "Nourish and rejuvenate your skin with organic active serums and luxury hydrators.",
+    title: "The Best Footwear",
+    subtitle: "Athletic and active footwears for your next Marathon completely organic and original leather.",
     cta: "Discover Beauty",
     category: "Beauty"
   },
