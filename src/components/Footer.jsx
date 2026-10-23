@@ -29,6 +29,7 @@ export default function Footer() {
           <ul className="space-y-2.5 text-sm font-light">
             <li><Link to="/" className="hover:text-emerald-500 transition-colors">Home</Link></li>
             <li><Link to="/products" className="hover:text-emerald-500 transition-colors">All Products</Link></li>
+            <li><Link to="/about" className="hover:text-emerald-500 transition-colors">About Aura</Link></li>
             <li><Link to="/cart" className="hover:text-emerald-500 transition-colors">Shopping Cart</Link></li>
             <li><Link to="/login" className="hover:text-emerald-500 transition-colors">Login / Access</Link></li>
           </ul>
@@ -71,4 +72,3 @@ export default function Footer() {
     </footer>
   );
 }
-

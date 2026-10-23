@@ -37,14 +37,6 @@ export default function Products() {
 
   return (
     <div className="bg-white min-h-screen">
-      <div className="bg-stone-50 border-b border-stone-100 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-stone-900">Aura Boutique</h1>
-          <p className="text-stone-500 text-sm mt-2 max-w-xl mx-auto font-light">
-            Browse our entire collection of premium clothing, footwear, active beauty care, and minimalist accessories.
-          </p>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex flex-col lg:flex-row gap-4 justify-between items-center pb-8 border-b border-stone-100 mb-8">
