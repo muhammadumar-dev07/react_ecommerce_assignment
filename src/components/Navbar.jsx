@@ -28,11 +28,11 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-6 items-center">
             <NavLink to="/" end className={linkClass}>Home</NavLink>
             <NavLink to="/products" className={linkClass}>Shop</NavLink>
-            <NavLink to="/about" className={linkClass}>About</NavLink>
             <Link to="/products?category=Clothing" className="text-sm text-stone-600 hover:text-stone-900">Clothing</Link>
             <Link to="/products?category=Footwear" className="text-sm text-stone-600 hover:text-stone-900">Footwear</Link>
             <Link to="/products?category=Accessories" className="text-sm text-stone-600 hover:text-stone-900">Accessories</Link>
             <Link to="/products?category=Beauty" className="text-sm text-stone-600 hover:text-stone-900">Beauty</Link>
+            <NavLink to="/about" className={linkClass}>About</NavLink>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -76,7 +76,7 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-b px-4 py-4 space-y-3">
           <Link to="/" onClick={() => setMenuOpen(false)} className="block text-stone-600 font-medium py-1">Home</Link>
           <Link to="/products" onClick={() => setMenuOpen(false)} className="block text-stone-600 font-medium py-1">Shop</Link>
-          <Link to="/about" onClick={() => setMenuOpen(false)} className="block text-stone-600 font-medium py-1">About</Link>
+          
           <div className="border-t border-stone-100 pt-2">
             <div className="grid grid-cols-2 gap-2 mt-1">
               <Link to="/products?category=Clothing" onClick={() => setMenuOpen(false)} className="text-sm text-stone-600">Clothing</Link>
@@ -85,6 +85,7 @@ export default function Navbar() {
               <Link to="/products?category=Beauty" onClick={() => setMenuOpen(false)} className="text-sm text-stone-600">Beauty</Link>
             </div>
           </div>
+          <Link to="/about" onClick={() => setMenuOpen(false)} className="block text-stone-600 font-medium py-1">About</Link>
           <div className="border-t border-stone-100 pt-3">
             {user ? (
               <div className="flex items-center justify-between">
